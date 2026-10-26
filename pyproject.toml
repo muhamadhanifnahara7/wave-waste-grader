@@ -6,6 +6,9 @@ readme = "README.md"
 requires-python = ">=3.12,<3.13"
 dependencies = [
     "streamlit>=1.61.1",
+    "fastapi",
+    "uvicorn",
+    "python-multipart",
     "Pillow",
     "torch",
     "torchvision",
